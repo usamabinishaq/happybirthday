@@ -9,9 +9,19 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 const _playfair = Playfair_Display({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "🎂 Happy Birthday",
+  title: "Happy Birthday",
   description: "Created with LOVE",
   generator: "LOVE",
+   icons: {
+    icon: '/favicon.ico',
+    // or for PNG
+    // icon: '/favicon.png',
+    // or multiple sizes
+    // icon: [
+    //   { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+    //   { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    // ],
+  },
 }
 
 export default function RootLayout({
