@@ -9,7 +9,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 const _playfair = Playfair_Display({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Happy Birthday",
+  title: "🎂 Happy Birthday",
   description: "Created with LOVE",
   generator: "LOVE",
 }
